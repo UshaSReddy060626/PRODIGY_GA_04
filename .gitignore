@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Data & training artifacts (large / regenerable, don't commit)
+maps/
+*.tar.gz
+checkpoints/*
+!checkpoints/.gitkeep
+logs/
+
+
+# OS
+.DS_Store
+Thumbs.db
